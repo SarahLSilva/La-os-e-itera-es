@@ -7,6 +7,9 @@
     <title>Laços e Iterações</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.2/paper/bootstrap.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
 
 </head>
 
@@ -15,19 +18,19 @@
         <p>
             <label for="tipoMusica">Escolha alguns tipos de música, em seguida, clique no botão
                 abaixo:</label>
-            <select id="tipoMusica" name="tipoMusica" multiple="multiple">
-                <option selected="selected">R&B</option>
-                <option>Jazz</option>
-                <option>Blues</option>
-                <option>New Age</option>
-                <option>Classico</option>
-                <option>Ópera</option>
-                <option>Pop</option>
-                <option>Funk</option>
-                <option>Rock</option>
+            <select class="select2 form-control" placeholder="Country">
+                <optgroup>
+                    <option value="ja">Jazz</option>
+                    <option value="bl">Blues</option>
+                    <option value="ne">New Age</option>
+                    <option value="cl">Classico</option>
+                    <option value="op">Ópera</option>
+                    <option value="po">Pop</option>
+                    <option value="fu">Funk</option>
+                    <option value="ro">Rock</option>
+                </optgroup>
             </select>
-        </p>
-        <p><input id="btn" type="button" value="Quantos foram selecionados?" /></p>
+        <button class=".glow-on-hover">Quantos foram selecionados?</button>
     </form>
 
     <script>
