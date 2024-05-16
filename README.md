@@ -45,6 +45,7 @@ Quando selecionado além de uma musica aparce um alert.
 ◽JavaScript
 ◽GitHub
 ◽Visual Studio Code
+◽Mozilla
 
 
 ## Autores 
